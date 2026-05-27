@@ -1,0 +1,10 @@
+{
+  "name": "ai-task-manager",
+  "version": "0.1.0",
+  "description": "Cross-device and cross-AI task management CLI",
+  "bin": {
+    "ai-task": "./bin/ai-task.js"
+  },
+  "type": "commonjs",
+  "license": "MIT"
+}

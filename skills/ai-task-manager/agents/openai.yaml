@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI Task Manager"
+  short_description: "Natural-language control for ai-task project tasks"
+  default_prompt: "Use $ai-task-manager to manage ai-task project tasks in natural language, including listing tasks, switching focus, marking completion, and saving progress."
+
+policy:
+  allow_implicit_invocation: true
