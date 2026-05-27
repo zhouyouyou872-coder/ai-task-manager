@@ -53,7 +53,7 @@ ai-task sync
 
 Use the Skill through natural-language task requests such as:
 
-- `当前有哪些任务`
+- `当前存在哪些任务`
 - `去做月份筛选任务`
 - `继续当前任务`
 - `把图表问题标记为完成`
