@@ -5,14 +5,18 @@ Unified repository for:
 - the `ai-task` CLI
 - the `ai-task-manager` Skill
 
+## Documentation
+
+- Installation and usage: [INSTALL_AND_USAGE.md](./INSTALL_AND_USAGE.md)
+
 ## Structure
 
 ```text
 ai-task-manager/
-├── packages/
-│   └── cli/
-└── skills/
-    └── ai-task-manager/
+|- packages/
+|  `- cli/
+`- skills/
+   `- ai-task-manager/
 ```
 
 ## Install the CLI
@@ -28,6 +32,8 @@ After that, verify:
 ```powershell
 ai-task --help
 ```
+
+For full setup instructions, including `ai-task config`, `ai-task init`, and daily workflow examples, see [INSTALL_AND_USAGE.md](./INSTALL_AND_USAGE.md).
 
 ## Install the Skill
 
@@ -53,10 +59,10 @@ ai-task sync
 
 Use the Skill through natural-language task requests such as:
 
-- `当前存在哪些任务`
-- `去做月份筛选任务`
+- `当前有哪些任务`
+- `去做某个任务`
 - `继续当前任务`
-- `把图表问题标记为完成`
+- `把某个任务标记为完成`
 - `保存当前任务进度`
 
 ## Notes
